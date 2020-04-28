@@ -13,8 +13,8 @@ variables:
   # containerRegistry: 'event.azurecr.io'
   # containerRegistryDockerConnection: 'acr'
   # environment: 'aks.default'
-- name: ProductImageRepository
-  value: 'delivery'
+- name: imageRepository
+  value: 'product'
 - name: dockerfilePath
   value: '**/Dockerfile'
 - name: tag
